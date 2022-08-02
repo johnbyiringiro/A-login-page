@@ -1,0 +1,11 @@
+body{
+    background-image: url(../images/xx.webp);
+    display: flex;
+    align-items: center;
+   
+  
+}
+.form-control{
+    color: rgb(194, 245, 11);
+    
+}

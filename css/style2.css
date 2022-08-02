@@ -1,0 +1,76 @@
+.card-tamp{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 35px;
+    padding: 12%;
+    background-position-x:center;
+    
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+
+.card-outline{
+    
+    border-radius: 35px;
+    width: 100%;
+    
+    box-shadow:  0px  0px 10px rgba(28, 223, 141, 0.726);
+}
+
+.text{
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    border: 2px solid rgba(223, 28, 54, 0.726);
+    width: 380px;
+    border-radius: 35px;
+    border-top-left-radius: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    color: rgba(161, 28, 223, 0.726);
+    text-shadow: 0px 0px 10px rgba(28, 96, 223, 0.726);
+    box-shadow:  0px  0px 10px rgba(28, 223, 141, 0.726);
+  transition-property:width, color;
+    transition-duration: 1s;
+}
+
+.text2{
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    padding-right: 50px;
+    border: 2px solid rgba(28, 223, 141, 0.726);
+    width: 380px;
+    border-radius: 35px;
+    border-top-right-radius: 0;
+    right: -50px;
+    color: rgba(228, 245, 238, 0.959);
+
+    text-shadow: 0px 0px 10px rgba(28, 223, 141, 0.726);
+    
+    box-shadow:  0px  0px 10px rgba(28, 223, 141, 0.726)red;
+  transition-property:width, color;
+    transition-duration: 1s;
+
+}
+
+.text2:hover{
+    width: 60%;
+    box-shadow:  0px  0px 10px rgba(28, 223, 141, 0.726);
+    
+    text-shadow:  0px  0px 10px rgb(0, 252, 147);
+    color:rgb(0, 0, 0) ;
+}
+.text:hover{
+    width: 60%;
+    box-shadow:  0px  0px 10px rgba(28, 223, 141, 0.726);
+    
+    text-shadow:  0px  0px 10px rgb(248, 255, 252);
+    color:rgb(0, 0, 0) ;
+
+}
+
+.card-outline:hover{
+    box-shadow: rgba(163, 0, 128, 0.267) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
